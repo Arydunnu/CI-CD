@@ -1,5 +1,6 @@
 
 print ("Hello Peace")
-print ("This is updated")
+
+print ("This is an update")
 
 # extra line
