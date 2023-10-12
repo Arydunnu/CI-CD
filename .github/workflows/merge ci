@@ -1,5 +1,5 @@
 
-name: Merge Ci
+name: Merge CI
 on:  [ pull_request ]
 jobs:
   Test:
