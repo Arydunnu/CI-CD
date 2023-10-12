@@ -1,6 +1,6 @@
 
 name: Merge Ci
-on:  [ pull-request ]
+on:  [ pull_request ]
 jobs:
   Test:
     runs-on: [ubuntu-latest, windows latest, macos latest]
