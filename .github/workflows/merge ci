@@ -3,9 +3,8 @@ name: Merge Ci
 on:  [ pull-request ]
 jobs:
   Test:
-    runs-on: [ubuntu-latest,windows latest. macos latest]
+    runs-on: [ubuntu-latest, windows latest, macos latest]
     steps:
       uses: actions/checkout@v2
-      run: echo " The job was automatically triggered by a ${{ github.event_name }} event."
       run: python main.py
 
