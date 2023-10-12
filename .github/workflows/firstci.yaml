@@ -5,5 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-     -run: echo " The job is completed by a ${{ github.event.name }} event."
+     -run: echo " The job was automatically triggered by a ${{ github.event.name }} event."
      -run: python main.py
