@@ -1,6 +1,6 @@
 
 name: Merge CI
-on:  [ pull_request ]
+on:  [ pull-request ]
 jobs:
   Test:
     runs-on: ${{ matrix.os }}
